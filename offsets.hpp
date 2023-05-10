@@ -1,12 +1,13 @@
-#pragma once
+#include <cstdint>
 
-	namespace offsets
-	{
-		inline DWORD
-		    VM_XOR_BASE,
-		    VM_XOR_KEY,
-		    VM_PTR;
-		
-		void initialize();
-	}
+namespace offsets
+{
+    inline uint32_t
+        VM_XOR_BASE,
+        VM_PTR;
 
+    inline uint64_t
+        VM_XOR_KEY;
+
+    void initialize();
+}
