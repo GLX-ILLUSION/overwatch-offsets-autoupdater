@@ -1,7 +1,7 @@
 {
    "offsets":{
-      "VM_XOR_BASE":"0x3BE8B28",
-      "VM_XOR_KEY":"0x2C049EE8C14EF4B1",
+      "VM_XOR_BASE":"0x3C934F8",
+      "VM_XOR_KEY":"0x0BAEE08042F3446D1",
       "VM_PTR":"0x7E0"
    }
 }
